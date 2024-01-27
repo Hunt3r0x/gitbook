@@ -112,7 +112,7 @@ done
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p><strong>KOSOM ISRAEL NOT FOUND 404</strong></p></figcaption></figure>
 
-As we see we didn't found kosom Israel.
+As we see we didn't find kosom Israel.
 
 #### Uncovering Hidden Gems
 
