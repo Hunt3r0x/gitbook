@@ -6,7 +6,7 @@ layout:
   description:
     visible: true
   tableOfContents:
-    visible: false
+    visible: true
   outline:
     visible: true
   pagination:
@@ -16,7 +16,7 @@ layout:
 # whoami
 
 {% code overflow="wrap" fullWidth="false" %}
-```wasm
+```asmatmel
 section .data
     bio db "## cars & codes & offensive security", 0
     len equ $ - bio
