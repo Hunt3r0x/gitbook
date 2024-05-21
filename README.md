@@ -43,8 +43,8 @@ _start:
 
 section .data
     len1 equ $ - whoami
-    len2 equ $ - lov
+    len2 equ $ - love
 ```
 {% endcode %}
 
-[![twitter](https://skillicons.dev/icons?i=twitter&\&perline=1)](https://twitter.com/71ntr) [![linkedin](https://skillicons.dev/icons?i=linkedin&\&perline=1)](https://www.linkedin.com/in/71ntr/)
+[<img src="https://skillicons.dev/icons?i=twitter&#x26;&#x26;perline=1" alt="twitter" data-size="line">](https://twitter.com/71ntr) [<img src="https://skillicons.dev/icons?i=linkedin&#x26;&#x26;perline=1" alt="linkedin" data-size="line">](https://www.linkedin.com/in/71ntr/)
