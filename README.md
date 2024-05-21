@@ -1,8 +1,8 @@
 ---
 description: OBJECT
 cover: >-
-  https://images.unsplash.com/photo-1640984756059-7303641db7cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwzfHxibGFjayUyMGhvbGV8ZW58MHx8fHwxNzE2MjYzNTM4fDA&ixlib=rb-4.0.3&q=85
-coverY: -11
+  https://images.unsplash.com/photo-1597449031666-21da12583121?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxibGFjayUyMGhvbGV8ZW58MHx8fHwxNzE2MjYzNTM4fDA&ixlib=rb-4.0.3&q=85
+coverY: -98.46520874751492
 ---
 
 # whoami
