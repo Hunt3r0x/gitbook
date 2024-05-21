@@ -1,6 +1,6 @@
 # Table of contents
 
-* [$ cat ./whoami](README.md)
+* [$ cd ./pl/](README.md)
 * [writeups](writeups/README.md)
   * [boxes](writeups/boxes/README.md)
     * [windows](writeups/boxes/windows/README.md)
