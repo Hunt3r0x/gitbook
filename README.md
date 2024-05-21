@@ -15,39 +15,41 @@ layout:
 
 # $ cd ./pl/
 
-## $ cat ./whoami
+## $ cat ./whoami.cpp
 
 {% code overflow="wrap" fullWidth="false" %}
-```wasm
-section .data
-    whoami db "# $ whoami", 10, "~ just a man who lives between zeros and ones.", 10
-    love db "# $ love", 10, "~ cars & codes & offensive security", 10, 0
+```cpp
+#include <iostream>
 
-section .text
-    global _start
+std::string whoami = R"(
+# $ whoami
+~ just a man who lives between zeros and ones.
+)";
 
-_start:
-    ; Print the bio
-    mov eax, 4        ; system call number (sys_write)
-    mov ebx, 1        ; file descriptor (stdout)
-    mov ecx, whoami   ; pointer to the first part of the bio
-    mov edx, len1     ; length of the first part of the bio
-    int 0x80          ; call kernel
+std::string love = R"(
+# $ love
+~ cars & codes & offensive security
+)";
 
-    mov ecx, love     ; pointer to the second part of the bio
-    mov edx, len2     ; length of the second part of the bio
-    int 0x80          ; call kernel
+int main() {
+    std::cout << whoami;
+    std::cout << love;
 
-    ; Exit program
-    mov eax, 1        ; system call number (sys_exit)
-    xor ebx, ebx      ; exit code 0
-    int 0x80          ; call kernel
-
-section .data
-    len1 equ $ - whoami
-    len2 equ $ - love
+    return 0;
+}
 ```
 {% endcode %}
+
+```bash
+➜ z1ntrx@leet  ~/pl  g++ whoami.cpp  -o whoami
+➜ z1ntrx@leet  ~/pl  ./whoami                                       
+
+# $ whoami
+~ just a man who lives between zeros and ones.
+
+# $ love
+~ cars & codes & offensive security
+```
 
 ## $ ls ./contacts/
 
