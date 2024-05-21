@@ -18,7 +18,7 @@ layout:
 
 
 {% code overflow="wrap" fullWidth="false" %}
-```wasm
+```asmatmel
 section .data
     whoami db "# $ whoami", 10, "~ I'm Ahmed Mohamed, just a man who lives between zeros and ones.", 10
     love db "# $ love", 10, "~ cars & codes & offensive security", 10, 0
