@@ -16,7 +16,7 @@ layout:
 # $ cat ./whoami
 
 {% code overflow="wrap" fullWidth="false" %}
-```armasm
+```wasm
 section .data
     whoami db "# $ whoami", 10, "~ just a man who lives between zeros and ones.", 10
     love db "# $ love", 10, "~ cars & codes & offensive security", 10, 0
