@@ -13,9 +13,7 @@ layout:
     visible: false
 ---
 
-# $ cd ./pl/
-
-## $ cat ./whoami.cpp
+# $ WHO'A'MI
 
 {% code overflow="wrap" fullWidth="false" %}
 ```cpp
@@ -50,7 +48,5 @@ int main() {
 # $ love
 ~ cars & codes & offensive security
 ```
-
-## $ ls ./contacts/
 
 [<img src="https://skillicons.dev/icons?i=twitter&#x26;&#x26;perline=1" alt="twitter" data-size="line">](https://twitter.com/71ntr)  [<img src="https://skillicons.dev/icons?i=linkedin&#x26;&#x26;perline=1" alt="linkedin" data-size="line">](https://www.linkedin.com/in/71ntr/)  [<img src="https://skillicons.dev/icons?i=github&#x26;&#x26;perline=1" alt="linkedin" data-size="line">](https://github.com/Hunt3r0x)
