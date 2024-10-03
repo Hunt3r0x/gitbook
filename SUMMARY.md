@@ -14,3 +14,5 @@
   * [Footprinting](pentesting/footprinting.md)
   * [WebEngagements ](pentesting/webengagements/README.md)
     * [One-Click-ATO](pentesting/webengagements/one-click-ato.md)
+  * [Network](pentesting/network/README.md)
+    * [XSS-BoF-DomainAdmin](pentesting/network/xss-bof-domainadmin.md)
