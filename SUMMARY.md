@@ -16,4 +16,5 @@
     * [One-Click-ATO](pentesting/webengagements/one-click-ato.md)
   * [Network](pentesting/network/README.md)
     * [XSS-BoF-DomainAdmin](pentesting/network/xss-bof-domainadmin.md)
-  * [AD-DIARIES](pentesting/ad-diaries.md)
+  * [AD-DIARIES](pentesting/ad-diaries/README.md)
+    * [S1P1](pentesting/ad-diaries/s1p1.md)
